@@ -38,11 +38,11 @@ group :development, :test do
   gem 'web-console', '2.0.0.beta3'
 end
 
-#group :test do
-#  gem 'minitest-reporters'
+group :test do
+  gem 'minitest-reporters'
 #  gem 'mini_backtrace'
 #  gem 'guard-minitest'
-#end
+end
 
 group :production do
   gem 'pg'
